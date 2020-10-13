@@ -5,13 +5,15 @@
 export default {
     data () {
         return {
-            msg: 'Hello Vue!'
+            msg: "Hello Vue:)"
         }
     }
 }
 </script>
-<style>
-* {
-    color: red
+<style scoped lang="scss">
+$color: green;
+h1 {
+    color: $color;
+    display: flex;
 }
 </style>
