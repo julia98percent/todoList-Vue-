@@ -10,7 +10,7 @@ module.exports = (env, opts) => {
   const config = {
     // 중복되는 옵션들
     resolve: {
-        extensions: ['.vue', '.js']
+      extensions: ['.vue', '.js']
     },
     //진입점, 가장 먼저 실행되어야 할 파일
     entry: {
